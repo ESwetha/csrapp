@@ -1,0 +1,19 @@
+<!-- <p>navbar works!</p> -->
+<mat-toolbar color="primary">
+    <a routerLink="/home" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </a>
+    <span>CSR App</span>
+
+    <a [routerLink]="'/create-event'" mat-icon-button class="example-icon place" aria-label="Example icon-button with menu icon">
+        Create-Event
+      </a>
+      <a [routerLink]="'/create-activity'" mat-icon-button class="example-icon place" aria-label="Example icon-button with menu icon">
+        Create-Activity
+      </a>
+
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">logout
+    </button>
+  </mat-toolbar>
+  
